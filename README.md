@@ -8,11 +8,9 @@ Backend
 npm install
 ```
 Frontend
+
 ```bash
 cd frontend
-```
-Then
-```bash
 npm install
 ```
 
