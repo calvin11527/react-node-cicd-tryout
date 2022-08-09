@@ -1,5 +1,9 @@
 # react-node-cicd-tryout
 
+[Demo Site](https://react-node-cicd-tryout.azurewebsites.net).
+
+Get Names API: add ```bash/names``` after https://react-node-cicd-tryout.azurewebsites.net
+
 A demo on using Github Actions.
 
 ## Installation
