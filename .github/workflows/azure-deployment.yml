@@ -49,6 +49,7 @@ jobs:
           cd frontend
           npm i
           npm run build
+          cd ..
 
     - name: Upload artifact for deployment job
       uses: actions/upload-artifact@v3
