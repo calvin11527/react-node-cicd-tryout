@@ -46,6 +46,10 @@ jobs:
     - name: npm install, build
       run: |
           npm i
+          cd frontend
+          npm i
+          npm run build
+          cd ..
 
     - name: Upload artifact for deployment job
       uses: actions/upload-artifact@v3
