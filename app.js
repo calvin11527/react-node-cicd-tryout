@@ -6,7 +6,7 @@ const FRONTEND_PATH = process.env.FRONTEND_PATH
 
 const app = express()
 console.log(path.join(__dirname, FRONTEND_PATH))
-app.use(express.static(path.join(__dirname, FRONTEND_PATH)))
+// app.use(express.static(path.join(__dirname, FRONTEND_PATH)))
 
 app.get('/names', (req, res)=>{
     res.send('Hello World')
